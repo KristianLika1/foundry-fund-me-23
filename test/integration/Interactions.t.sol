@@ -14,7 +14,7 @@ contract InteractionsTest is ZkSyncChainChecker, StdCheats, Test {
     FundMe public fundMe;
     HelperConfig public helperConfig;
 
-    uint256 public constant SEND_VALUE = 0.1 ether; // just a value to make sure we are sending enough!
+    uint256 public constant SEND_VALUE = 0.1 ether;
     uint256 public constant STARTING_USER_BALANCE = 10 ether;
     uint256 public constant GAS_PRICE = 1;
 
